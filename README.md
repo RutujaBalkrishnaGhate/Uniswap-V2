@@ -1,20 +1,33 @@
-# ZUniswapV2, a clone of UniswapV2 made in educational purposes
+## Final Project: Upgrade UniswapV2
 
-## Using this repo
+Final Project: Upgrade UniswapV2
+UniswapV2 was written three years ago and uses outdated versions of Solidity tools
+Project goals:
+Achieve deep knowledge of the UniswapV2 implementation
+Learn Foundry, the next generation ethereum development environment
+You may use any online resources for the project.
+Read through the UniswapV2 code:
+https://github.com/Uniswap/v2-core
+https://github.com/Uniswap/v2-periphery
+Class Notes (written by Jichu Wang, a former student at NEU).
+Copy the UniswapV2 code into a new Foundry project
+The original code had the core and periphery contracts in different repos. We recommend combining them into a single repo to simplify development, and copying libraries rather than using package management.
+UniswapV2Router01 should not be included.
+Upgrade the UniswapV2 code to the latest Solidity version that Foundry supports.
+Write Solidity tests that achieve 100% line coverage for each of the following contracts:
+UniswapV2Router02
+UniswapV2Pair
+UniswapV2Factory
+Generate and commit a line coverage report to assess the quality of your tests
 
-1. `git clone git@github.com:Jeiwan/zuniswapv2.git`
-1. Ensure you have installed Rust and Cargo: [Install Rust](https://www.rust-lang.org/tools/install)
-1. Install Foundry:
-   `cargo install --git https://github.com/gakonst/foundry --bin forge --locked`
-1. Install dependency contracts:
-   `git submodule update --init --recursive`
-1. Run tests:
-   `forge test`
+IDE used to run the code is VS Studio Code.
 
-## Blog posts
+Contact
+If you want to contact with me you can reach me at ghate.r@northeastern.edu
 
-1. [Part 1](https://jeiwan.net/posts/programming-defi-uniswapv2-1/), architecture of UniswapV2, adding liquidity, first tests in Solidity, removing liquidity.
-1. [Part 2](https://jeiwan.net/posts/programming-defi-uniswapv2-2/), tokens swapping, re-entrancy attacks and protection,
-   price oracle, integer overflow and underflow, safe transfer.
-1. [Part 3](https://jeiwan.net/posts/programming-defi-uniswapv2-3/), factory contract, CREATE2 opcode, Router contract, Library contract
-1. [Part 4](https://jeiwan.net/posts/programming-defi-uniswapv2-4/), LP-tokens burning bug, liquidity removal, output amount calculation, swapExactTokensForTokens, swapTokensForExactTokens, fixing swap fee bug, flash loans, fixing re-entrancy vulnerability, protocol fees
+License
+This project is free to use and does not contains any license.
+
+Thanks
+
+Rutuja Ghate
