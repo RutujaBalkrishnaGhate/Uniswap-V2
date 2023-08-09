@@ -1,23 +1,24 @@
 ## Final Project: Upgrade UniswapV2
 
-Final Project: Upgrade UniswapV2
-UniswapV2 was written three years ago and uses outdated versions of Solidity tools
-Project goals:
-Achieve deep knowledge of the UniswapV2 implementation
-Learn Foundry, the next generation ethereum development environment
-You may use any online resources for the project.
-Read through the UniswapV2 code:
-https://github.com/Uniswap/v2-core
-https://github.com/Uniswap/v2-periphery
-Class Notes (written by Jichu Wang, a former student at NEU).
-Copy the UniswapV2 code into a new Foundry project
+<h3>Final Project: Upgrade UniswapV2</h3>
+<p>UniswapV2 was written three years ago and uses outdated versions of Solidity tools</p>
+<h4>Project goals:</h4>
+<p>Achieve deep knowledge of the UniswapV2 implementation<br>
+Learn Foundry, the next generation ethereum development environment<br>
+You may use any online resources for the project.<br></p>
+<h6>Read through the UniswapV2 code:</h6>
+<p>https://github.com/Uniswap/v2-core<br>
+https://github.com/Uniswap/v2-periphery</br>
+Class Notes (written by Jichu Wang, a former student at NEU).<br>
+Copy the UniswapV2 code into a new Foundry project<br>
 The original code had the core and periphery contracts in different repos. We recommend combining them into a single repo to simplify development, and copying libraries rather than using package management.
-UniswapV2Router01 should not be included.
-Upgrade the UniswapV2 code to the latest Solidity version that Foundry supports.
-Write Solidity tests that achieve 100% line coverage for each of the following contracts:
-UniswapV2Router02
-UniswapV2Pair
-UniswapV2Factory
+UniswapV2Router01 should not be included.<br>
+Upgrade the UniswapV2 code to the latest Solidity version that Foundry supports.<br>
+<h6>Write Solidity tests that achieve 100% line coverage for each of the following contracts:</h6>
+<ul>
+<li>UniswapV2Router02</li>
+<li>UniswapV2Pair</li>
+<li>UniswapV2Factory</li></ul>
 Generate and commit a line coverage report to assess the quality of your tests
 
 IDE used to run the code is VS Studio Code.
